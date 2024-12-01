@@ -1,0 +1,9 @@
+name: AltitudeControl
+version: '${project.version}'
+main: me.lodaris.altitudecontrol.Main
+api-version: '1.16'
+commands:
+  altitudecontrol:
+    aliases: [ac]
+    permission: ac.admin
+    default: op
